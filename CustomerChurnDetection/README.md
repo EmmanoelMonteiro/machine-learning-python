@@ -8,12 +8,18 @@ O desafio central deste projeto foi lidar com um **dataset desbalanceado**, onde
 
 ## Jornada de Desenvolvimento
 
-O projeto foi construído em etapas, demonstrando a evolução de uma solução de Machine Learning:
+O projeto foi construído sobre uma metodologia robusta, focada em otimizar o desempenho do modelo em um cenário de dados desbalanceados. Os principais componentes utilizados foram:
 
-1.  **Dados Sintéticos**: Inicialmente, utilizamos um dataset sintético para estruturar o problema. Esta fase revelou a importância de métricas como `Precision` e `Recall`, já que a alta `Acurácia` geral se mostrou enganosa.
-2.  **Técnicas de Balanceamento**: Após identificar a baixa performance na classe minoritária (`Churn`), aplicamos a técnica **SMOTE** (Synthetic Minority Over-sampling Technique) para balancear os dados de treino, melhorando a capacidade do modelo de detectar clientes em risco.
-3.  **Modelagem Avançada**: Trocamos o modelo inicial **Random Forest** por um mais potente, o **XGBoost**, que demonstrou maior capacidade de aprender os padrões em dados complexos e desbalanceados.
-4.  **Dados Reais**: Por fim, migramos para um dataset de telecomunicações real do Kaggle, o que levou a um salto significativo no desempenho, validando a importância de ter dados de alta qualidade para o treinamento do modelo.
+* **Pré-processamento de Dados:**
+    * **Tratamento de Dados Categóricos**: Variáveis de texto, como tipo de serviço e contrato, foram transformadas em formato numérico utilizando a técnica de **One-Hot Encoding**.
+    * **Limpeza de Dados**: Valores nulos na coluna `TotalCharges` foram identificados e tratados.
+* **Balanceamento de Classes**:
+    * Para mitigar o problema do desbalanceamento (poucos exemplos de `Churn`), a técnica **SMOTE (Synthetic Minority Over-sampling Technique)** foi aplicada no conjunto de treino.
+* **Modelagem e Treinamento**:
+    * O modelo escolhido foi o **XGBoost (Extreme Gradient Boosting)**, conhecido por sua alta performance e robustez em datasets tabulares.
+* **Avaliação de Resultados**:
+    * A performance do modelo foi avaliada utilizando métricas como `Precision`, `Recall` e `F1-score`, com foco especial na classe `Churn`.
+    * A **Matriz de Confusão** foi utilizada para uma análise visual e detalhada dos acertos e erros do modelo.
 
 ## Interpretação dos Resultados Finais
 
