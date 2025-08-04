@@ -27,11 +27,11 @@ Cada projeto é uma jornada de aprendizado, cobrindo o fluxo completo de um prob
 * **Link para o Projeto:** [Acessar Customer Churn Detection](CustomerChurnDetection/README.md)
 
 ### 3. Agrupamento de Clientes de um E-commerce
-> **Cenário:** Segmentar clientes em diferentes grupos de comportamento de consumo com base em sua renda e gastos para criar campanhas de marketing direcionadas.
-> **Modelo:** K-Means Clustering
-> **Técnicas:** Método do Cotovelo (Elbow Method) para determinar o número ideal de clusters e `StandardScaler` para normalização dos dados.
-> **Resultados:** O modelo identificou 5 perfis distintos de clientes, variando de "Clientes VIPs" (alta renda, alto gasto) a "Compradores Econômicos" (alta renda, baixo gasto).
-> **Link para o Projeto:** [Acessar o Marketing Campaign Segmentation](MarketingCampaignSegmentation/README.md)
+* **Cenário:** Segmentar clientes em diferentes grupos de comportamento de consumo com base em sua renda e gastos para criar campanhas de marketing direcionadas.
+* **Modelo:** K-Means Clustering
+* **Técnicas:** Método do Cotovelo (Elbow Method) para determinar o número ideal de clusters e `StandardScaler` para normalização dos dados.
+* **Resultados:** O modelo identificou 5 perfis distintos de clientes, variando de "Clientes VIPs" (alta renda, alto gasto) a "Compradores Econômicos" (alta renda, baixo gasto).
+* **Link para o Projeto:** [Acessar o Marketing Campaign Segmentation](MarketingCampaignSegmentation/README.md)
 
 ---
 
