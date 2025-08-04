@@ -13,11 +13,11 @@ Cada projeto é uma jornada de aprendizado, cobrindo o fluxo completo de um prob
 ## Projetos
 
 ### 1. Classificação de Emoções a partir de Texto
-> **Cenário:** Criar um modelo que classifica textos em diferentes emoções (alegria, tristeza, etc.).
-> **Modelo:** Random Forest Classifier
-> **Técnicas:** Vetorização de texto com TF-IDF.
-> **Resultados:** O modelo alcançou uma acurácia de ~70%, e a matriz de confusão revelou insights sobre quais emoções são mais frequentemente confundidas.
-> **Link para o Projeto:** [Classificação de Emoções a partir de Texto](ClassifyingEmotionsText/ClassifyingEmotionsText.ipynb)
+* **Cenário:** Criar um modelo que classifica textos em diferentes emoções (alegria, tristeza, etc.).
+* **Modelo:** Random Forest Classifier
+* **Técnicas:** Vetorização de texto com TF-IDF.
+* **Resultados:** O modelo alcançou uma acurácia de ~70%, e a matriz de confusão revelou insights sobre quais emoções são mais frequentemente confundidas.
+* **Link para o Projeto:** [Classificação de Emoções a partir de Texto](ClassifyingEmotionsText/ClassifyingEmotionsText.ipynb)
 
 ---
 
