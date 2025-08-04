@@ -17,7 +17,7 @@ Cada projeto é uma jornada de aprendizado, cobrindo o fluxo completo de um prob
 * **Modelo:** Random Forest Classifier
 * **Técnicas:** Vetorização de texto com TF-IDF.
 * **Resultados:** O modelo alcançou uma acurácia de ~70%, e a matriz de confusão revelou insights sobre quais emoções são mais frequentemente confundidas.
-* **Link para o Projeto:** [Classificação de Emoções a partir de Texto](ClassifyingEmotionsText/ClassifyingEmotionsText.ipynb)
+* **Link para o Projeto:** [Classificação de Emoções a partir de Texto](ClassifyingEmotionsText/README.md)
 
 ---
 
