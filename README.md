@@ -20,11 +20,11 @@ Cada projeto é uma jornada de aprendizado, cobrindo o fluxo completo de um prob
 * **Link para o Projeto:** [Classificação de Emoções a partir de Texto](ClassifyingEmotionsText/README.md)
 
 ### 2. Detecção de Churn em Clientes de Telecom
-> **Cenário:** Prever quais clientes de uma empresa de telecomunicações têm maior probabilidade de cancelar seus serviços (churn). O desafio principal foi o **desbalanceamento de classes**.
-> **Modelo:** XGBoost Classifier
-> **Técnicas:** Pré-processamento de dados reais, One-Hot Encoding e balanceamento de classes com SMOTE.
-> **Resultados:** O modelo alcançou um `recall` de 59% e uma `precision` de 58% na classe de `Churn`, mostrando um desempenho robusto em um cenário de dados desbalanceados.
-> **Link para o Projeto:** [Acessar Customer Churn Detection](CustomerChurnDetection/CustomerChurnDetection.ipynb)
+* **Cenário:** Prever quais clientes de uma empresa de telecomunicações têm maior probabilidade de cancelar seus serviços (churn). O desafio principal foi o **desbalanceamento de classes**.
+* **Modelo:** XGBoost Classifier
+* **Técnicas:** Pré-processamento de dados reais, One-Hot Encoding e balanceamento de classes com SMOTE.
+* **Resultados:** O modelo alcançou um `recall` de 59% e uma `precision` de 58% na classe de `Churn`, mostrando um desempenho robusto em um cenário de dados desbalanceados.
+* **Link para o Projeto:** [Acessar Customer Churn Detection](CustomerChurnDetection/CustomerChurnDetection.ipynb)
 ---
 
 ## Como Rodar os Projetos
