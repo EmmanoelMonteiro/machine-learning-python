@@ -3,6 +3,7 @@
 Olá! Bem-vindo(a) ao meu portfólio de projetos de Machine Learning. Aqui, você encontrará uma coleção de soluções práticas para cenários diversos, utilizando Python e bibliotecas como Scikit-Learn, Pandas e Matplotlib.
 
 Cada projeto é uma jornada de aprendizado, cobrindo o fluxo completo de um problema de ML:
+
 * Carregamento e Pré-processamento de Dados
 * Divisão em Treino e Teste
 * Treinamento e Avaliação de Modelos
@@ -37,5 +38,11 @@ Cada projeto é uma jornada de aprendizado, cobrindo o fluxo completo de um prob
 
 ## Como Rodar os Projetos
 
-Cada projeto foi desenvolvido no Google Colab. Você pode clicar no link de cada projeto e abrir diretamente no Colab para explorar e executar o código.
-Para rodar localmente, você precisará instalar as dependências listadas em cada notebook.
+Cada projeto foi desenvolvido no ambiente do Google Colab para garantir a reprodutibilidade. Para executá-los, siga os passos abaixo:
+
+1.  **Baixe os Arquivos**: Faça o download do arquivo `.ipynb` do projeto desejado e de seu respectivo arquivo de dados (`.csv`).
+2.  **Abra o Colab**: Vá para o Google Colab e faça o upload do notebook (`.ipynb`).
+3.  **Faça o Upload dos Dados**: Dentro do ambiente do Colab, faça o upload do arquivo de dados (`.csv`) para a pasta de arquivos da sua sessão.
+4.  **Execute as Células**: Execute as células do notebook sequencialmente. O ambiente do Colab já inclui a maioria das bibliotecas necessárias.
+
+Alternativamente, você pode clonar o repositório completo para sua máquina local e rodar os notebooks usando um ambiente Python, como o Jupyter Notebook.
